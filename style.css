@@ -41,6 +41,32 @@ header
    padding: 20px;
 }
 
+
+   /* トップビュー */
+   
+.top_view {
+   background: url(../img/video/top_video.mp4)  bottom center;
+   position: relative;
+}
+  
+.top_view > .top_container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #181919;
+}
+
+.top_view video {
+   position: relative;
+   width: 100%;
+   opacity: 0.5;
+   -webkit-filter:grayscale(100%);
+   -moz-filter:grayscale(100%);
+   -ms-filter:grayscale(100%);
+   filter:grayscale(100%);   
+}
+
 .top-view p
 {
    color: green;
