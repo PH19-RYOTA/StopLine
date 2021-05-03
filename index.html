@@ -50,25 +50,27 @@
 </head>
 <body>
    <Header>
-      <h1 class="headline">
-         <a href="#">STOPLINE公式サイト</a>
-      </h1>
-      <nav class="pc-navi">
-         <ul class="h_menu">
-            <li class="drawer-item">
-               <a href="#">Top</a>
-            </li>
-            <li class="h_menu">
-               <a href="#Download">DL</a>
-            </li>
-            <li class="h_menu">
-               <a href="#Photo">Photo</a>
-            </li>
-            <li class="h_menu">
-               <a href="#Information">Info</a>
-            </li>
-         </ul>
-      </nav>
+      <div class="flex">
+         <h1>
+            <a href="#">STOPLINE公式サイト</a>
+         </h1>
+         <nav>
+            <ul>
+               <li class="drawer-item">
+                  <a href="#">Top</a>
+               </li>
+               <li class="h_menu">
+                  <a href="#Download">DL</a>
+               </li>
+               <li class="h_menu">
+                  <a href="#Photo">Photo</a>
+               </li>
+               <li class="h_menu">
+                  <a href="#Information">Info</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
    </Header>
 
    <main>
@@ -76,15 +78,15 @@
       <section id="#">
          <div class="top-view">
             <div class="top_container">
-               <video style="max-width: 100%;" preload="none" muted autoplay loop>
+               <video style="max-width: 50%;" preload="none" muted autoplay loop>
                   <source src="./movie/STOPLINE_NAGARE.mp4" type="video/mp4">
                </video>
+               <h1>STOPLINE</h1>
+               <a class="link" href="https://ph19-ryota.github.io/Portfolio.html/#" target="_blank">
+                  <p><b>YamamotoRyota</b></p>
+               </a>
+               <p><b>ミニゲーム</b></p>
             </div>
-            <h1>STOPLINE</h1>
-            <a href="https://ph19-ryota.github.io/Portfolio.html/#" target="_blank">
-               <p><b>YamamotoRyota</b></p>
-            </a>
-            <p><b>ミニゲーム</b></p>
          </div>
       </section>
       
@@ -97,10 +99,10 @@
 
       <!-- Photo -->
       <section id="Photo">
-         <div class="slider" width=70%>
-            <img src="./img/rule_gameplay.png"  alt="">
+         <div class="slider" width=50%>
+            <img src="./img/rule_gameplay.png" alt="">
             <img src="./img/rule_gameclear.png" alt="">
-            <img src="./img/rule_gameover.png"  alt="">
+            <img src="./img/rule_gameover.png" alt="">
             <img src="./img/STAGE1.png"  alt="">
             <img src="./img/STAGE10.png" alt="">
             <img src="./img/STAGE20.png" alt="">
@@ -129,9 +131,9 @@
                <th>提供元</th><th>開発元</th><th>製作ソフト</th>
             </tr>
             <tr align="center">
-               <td><a href="https://ph19-ryota.github.io/Portfolio.html/#" target="_blank">Yamamoto Ryota</a></td>
-               <td><a href="https://ph19-ryota.github.io/Portfolio.html/#" target="_blank">Yamamoto Ryota</a></td>
-               <td><a href="https://unity.com/ja" target="_blank">Unity</a></td>
+               <td><a class="link" href="https://ph19-ryota.github.io/Portfolio.html/#" target="_blank">Yamamoto Ryota</a></td>
+               <td><a class="link" href="https://ph19-ryota.github.io/Portfolio.html/#" target="_blank">Yamamoto Ryota</a></td>
+               <td><a class="link" href="https://unity.com/ja" target="_blank">Unity</a></td>
             </tr>
          </table>
       </section>
